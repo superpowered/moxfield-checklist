@@ -1,0 +1,1 @@
+This app doesn't collect any data. All data is stored locally on your machine (local storage)

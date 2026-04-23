@@ -1,0 +1,57 @@
+.toggle-checklist-button {
+  img {
+    height: 1.5rem;
+    width: 1.5rem;
+  }
+}
+
+.checklist-item {
+  display: none;
+}
+
+.clear-checklist-button {
+  display: none;
+}
+
+.checklist-show {
+  .clear-checklist-button {
+    display: block;
+  }
+
+  .checklist-item {
+    display: block;
+    cursor: pointer;
+    height: 1.25rem;
+    width: 1.25em;
+    margin-right: -8px;
+
+    &::after {
+      left: calc(100% + 4px) !important;
+    }
+
+    svg {
+      height: 1.25rem;
+      width: 1.25em;
+      path {
+        fill: var(--bs-primary);
+        display: block;
+      }
+    }
+
+    .checklist-item-checked {
+      display: none;
+    }
+    .checklist-item-unchecked {
+      display: block;
+    }
+
+    &.checked {
+      .checklist-item-checked {
+        display: block;
+      }
+      .checklist-item-unchecked {
+        display: none;
+      }
+    }
+  }
+}
