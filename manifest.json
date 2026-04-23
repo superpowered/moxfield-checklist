@@ -1,6 +1,6 @@
 {
     "name": "Moxfield Checkmarker",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "description": "Adds locally stored checkboxes to moxfield decklists",
     "permissions": ["storage", "tabs"],
     "host_permissions": ["https://*.moxfield.com/*", "https://moxfield.com/*"],

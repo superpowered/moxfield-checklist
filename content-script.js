@@ -274,16 +274,16 @@
       return null;
     }
     const anchors = form.getElementsByTagName("a");
-    if (!anchors || !anchors?.[2]) {
-      console.error("no `anchors` found!");
-      return null;
+    if (!anchors || !anchors?.[2] || anchors.length < 3) {
+      form.prepend(clearChecklistBtn);
+    } else {
+      form.insertBefore(clearChecklistBtn, anchors[2]);
     }
 
     if (checklistEnabled) {
       deckView.classList.add("checklist-show");
     }
 
-    form.insertBefore(clearChecklistBtn, anchors[2]);
     form.insertBefore(enableChecklistBtn, clearChecklistBtn);
 
     return {
