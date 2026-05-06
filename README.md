@@ -13,5 +13,5 @@ Google Extension Store Link: https://chromewebstore.google.com/detail/moxfield-c
 
 
 #### Misc
-Buy Me a Coffee: https://buymeacoffee.com/andrew.herder
+Buy Me a Coffee: https://buymeacoffee.com/andrew.herder  
 Github Sponsors: https://github.com/sponsors/superpowered/
